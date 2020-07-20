@@ -10,11 +10,9 @@
 
     1. Clone Repo
 
-### Server installation
-    2. npm install
+    2. npm install (install server)
 
-### Client installation
-    3. npm client-install
+    3. npm client-install (install client)
 
     4. Create your own MongoDB cluster and copy mongoURI
 
