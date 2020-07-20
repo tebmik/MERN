@@ -8,11 +8,21 @@
 
 ## Getting Started
 
-    1. After cloning the repo, create your own Mongo cluster, connect, connect your application and copy the end-point into the config folder. 
-    
-    2. replace <password> & <dbName> with your credentials.
+    1. Clone Repo
 
-    3. Turn on dev server "npm run serve" ( check "package.json" ).
+### Server installation
+    2. npm install
+
+### Client installation
+    3. npm client-install
+
+    4. Create your own MongoDB cluster and copy mongoURI
+
+    5. create config folder with keys.js file
     
-    4. Download Postman and test the end-points.
+    6. Create a module.exports mongoURI object & paste the URI as a string value, replacing <password> & <dbName> with your credentials.
+
+    7. Turn on dev server "npm run serve" or "npm run dev" for server & client. ( check "package.json" ).
+    
+    8. Download Postman and test the end-points.
 
